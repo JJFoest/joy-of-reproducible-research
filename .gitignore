@@ -3,3 +3,5 @@
 .RData
 .Ruserdata
 .pdf
+data-raw/*
+!data-raw/cleaning_joy-of-reproducible-research_example-data.csv
