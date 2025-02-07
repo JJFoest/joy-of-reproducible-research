@@ -18,6 +18,7 @@ When you click the **Knit** button a document will be generated that includes bo
 ```{r cars}
 summary(cars)
 ```
+And use the buttons to adapt the settings (you can also just type them in between those brackets if you know the commands), Run all code above the chunk, or run the current chunk. Fun times!
 
 ## Including Plots
 
