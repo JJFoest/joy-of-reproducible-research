@@ -28,3 +28,14 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Cool sunglasses
+I think you'd agree, these are pretty cool, and need to be added to this document.
+```{r sunglasses, echo=FALSE, results = 'asis'}
+url <- "https://tinyurl.com/5cw3bzhu"
+
+knitr::include_graphics(url)
+
+```
+
+
