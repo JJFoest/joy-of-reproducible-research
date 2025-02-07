@@ -35,7 +35,8 @@ I think you'd agree, these are pretty cool, and need to be added to this documen
 url <- "https://tinyurl.com/5cw3bzhu"
 
 knitr::include_graphics(url)
-
 ```
+Upon reflection, I think these out-cool me. But that's ok, I've made peace with that. Anyway, I hope this example helps you to see you can also incorporate all kinds of things in your markdown document, even images pulled from somewhere online!
 
+Anyways. Feel free to add your thoughts on anything below, to see how it would affect your git process :D
 
