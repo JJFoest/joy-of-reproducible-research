@@ -25,7 +25,19 @@ And use the buttons to adapt the settings (you can also just type them in betwee
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
-ggplot2::ggplot(pressure, ggplot2::aes(x = temperature, y = pressure)) + ggplot2::geom_smooth(colour ="pink") + ggplot2::theme_classic()
+ggplot2::ggplot(pressure, ggplot2::aes(x = temperature, y = pressure)) + ggplot2::geom_smooth(colour = "orange") + ggplot2::theme_classic()
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Cool sunglasses
+I think you'd agree, these are pretty cool, and need to be added to this document.
+```{r sunglasses, echo=FALSE, results = 'asis'}
+url <- "https://tinyurl.com/5cw3bzhu"
+
+knitr::include_graphics(url)
+```
+Upon reflection, I think these out-cool me. But that's ok, I've made peace with that. Anyway, I hope this example helps you to see you can also incorporate all kinds of things in your markdown document, even images pulled from somewhere online!
+
+Anyways. Feel free to add your thoughts on anything below, to see how it would affect your git process :D
+
