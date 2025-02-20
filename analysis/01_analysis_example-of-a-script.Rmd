@@ -41,3 +41,10 @@ Upon reflection, I think these out-cool me. But that's ok, I've made peace with 
 
 Anyways. Feel free to add your thoughts on anything below, to see how it would affect your git process :D
 
+Actually those ones are sick 
+```{r sunglasses kasia, echo=FALSE, results = 'asis'}
+url1 <- "https://i.pinimg.com/550x/ff/4e/b8/ff4eb8fb73b7bfb229b47afd77ebec9a.jpg"
+
+knitr::include_graphics(url1)
+
+
