@@ -44,5 +44,5 @@ Anyways. Feel free to add your thoughts on anything below, to see how it would a
 ## Cool histogram
 ```{r histo}
 vec <- rnorm(1000, mean = 0, sd = 1)
-hist(vec, col = "pink")
+hist(vec, col = "pink", main = "Lovely pink histogram")
 ```
